@@ -1,0 +1,80 @@
+# Poescrítika
+
+> Poescrítika es una escuela de literatura en línea: cursos de apreciación literaria para todos los que aman la literatura. Hoy todos sus cursos están reunidos en la Biblioteca Poescrítika, una biblioteca de cursos de literatura en video, en español. Más de 30 cursos completos (más de 200 horas) sobre grandes obras y autores: Borges, Rulfo, Cortázar, García Márquez, Sor Juana, el Boom latinoamericano, Proust, Homero y más. Fundada por Lidya Cota (directora) y Abraham Truxillo (profesor). Más de 800 lectores de 9 países han tomado sus cursos.
+
+La ficha completa de cada curso (temario sesión por sesión, qué obtendrás y para quién es) está en https://www.poescritika.com/llms-full.txt
+
+## Cómo son los cursos
+
+Cada curso dedica entre 5 h 30 min y 9 h 30 min a una sola obra, un solo autor o un solo tema, en sesiones de 1 h 30 min a 2 h. No son cápsulas de unos minutos: son análisis completos. Cada curso es resultado de la investigación de Abraham Truxillo, poeta, ensayista y narrador, licenciado en Letras Hispánicas por la UNAM, autor de cuatro libros de poesía y colaborador de Letras Libres, Revista de la Universidad de México y La Jornada Semanal, entre otras. En cada sesión, Abraham reúne el contexto histórico y literario, el análisis de la estructura, los personajes, los temas y el estilo de la obra, y su propia lectura como escritor.
+
+## Quiénes somos
+
+- Poescrítika es un proyecto de dos: Lidya Cota y Abraham Truxillo, cofundadores de la escuela y, además, esposos.
+- Lidya Cota: especialista en inteligencia artificial y estrategia digital, emprendedora y gestora cultural. Cofundadora y directora de Poescrítika. Estudió Ciencias de la Informática en el Instituto Politécnico Nacional y la maestría en Ciencias de la Computación en su Centro de Investigación en Computación (becaria del Conacyt), con especialidad en inteligencia artificial y aprendizaje automático. Trabajó más de 15 años en empresas de software como desarrolladora, científica de datos y líder de innovación. Desde 2022 dirige Poescrítika y reúne en una sola persona el trabajo de un equipo de marketing digital: estrategia, Meta Ads, copywriting, diseño gráfico, desarrollo web, analítica y edición de video. Sitio: https://www.lidyacota.com
+- Abraham Truxillo (México, 1983): cofundador y profesor de Poescrítika. Poeta, ensayista y narrador, licenciado en Letras Hispánicas por la Universidad Nacional Autónoma de México. Autor de los libros de poesía Postales del ventrílocuo (Ediciones Sin Nombre, 2011), Huracán. Antipoema (Dogma, 2025), Bestiario marino (Medusa, 2025) y Bolero Techno (Manofalsa, 2025). Ha colaborado en Revista de la Universidad de México, Letras Libres, Tierra Adentro, Casa del Tiempo, La Jornada Semanal y Laberinto de Milenio Diario, entre otros. Sitio: https://www.abrahamtruxillo.net
+- Más información: https://www.poescritika.com/quienes-somos/
+
+## Suscripción
+
+- Plan mensual: 14 USD al mes. Plan semestral: 70 USD cada 6 meses. Plan anual: 126 USD al año.
+- Todos los planes empiezan con 7 días gratis (se pide tarjeta) y tienen 7 días de garantía de devolución a partir del primer pago.
+- Los cursos son grabaciones reales de las sesiones, en la plataforma de Hotmart; se ven en computadora, tableta o celular mientras la suscripción esté activa.
+- Algunos cursos también se venden por separado (pago único, acceso durante un año).
+- Página principal: https://www.poescritika.com/
+- Biblioteca Poescrítika: https://www.poescritika.com/biblioteca/
+- Prueba gratis: https://www.poescritika.com/prueba-gratis/
+- Quiénes somos (Lidya Cota y Abraham Truxillo): https://www.poescritika.com/quienes-somos/
+
+## Cursos
+
+- [Viaje a Macondo](https://www.poescritika.com/cursos/viaje-a-macondo-cien-anos-de-soledad/): Curso en video sobre Cien años de soledad de Gabriel García Márquez: realismo mágico, los Buendía, el tiempo cíclico y el estilo de Gabo. Incluido en la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [El amor en los tiempos del cólera](https://www.poescritika.com/cursos/el-amor-en-los-tiempos-del-colera-de-gabriel-garcia-marquez/): Curso en video sobre El amor en los tiempos del cólera de Gabriel García Márquez: Florentino, Fermina y Juvenal, la estructura circular, los símbolos y el estilo. Incluido en la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [Cuentos de Gabriel García Márquez](https://www.poescritika.com/cursos/cuentos-de-gabriel-garcia-marquez/): Curso en video sobre cuentos de Gabriel García Márquez: La luz es como el agua, Solo vine a hablar por teléfono, El ahogado más hermoso del mundo y La siesta del martes. 4 sesiones, 7 h 30 min.
+- [En busca de Pedro Páramo](https://www.poescritika.com/cursos/en-busca-de-pedro-paramo-de-juan-rulfo/): Curso en video sobre Pedro Páramo de Juan Rulfo: Comala, sus voces y personajes, vida y muerte, caciquismo y el lenguaje de Rulfo. Incluido en la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [El llano en llamas](https://www.poescritika.com/cursos/el-llano-en-llamas-de-juan-rulfo/): Curso en video sobre El llano en llamas de Juan Rulfo: Nos han dado la tierra, Macario, La cuesta de las comadres, El hombre, Anacleto Morones y más. 4 sesiones, 7 h 30 min.
+- [Cuentos de Juan Rulfo](https://www.poescritika.com/cursos/cuentos-de-juan-rulfo/): Curso en video sobre cuentos de Juan Rulfo: No oyes ladrar los perros, Diles que no me maten, Luvina y Talpa. Incluido en la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [Ficciones de Jorge Luis Borges](https://www.poescritika.com/cursos/ficciones-de-jorge-luis-borges/): Curso en video sobre Ficciones de Jorge Luis Borges: Tlön, Las ruinas circulares, Pierre Menard, El milagro secreto, El sur, La muerte y la brújula y La lotería en Babilonia. 4 sesiones, 7 h 30 min.
+- [Cuentos de Borges](https://www.poescritika.com/cursos/cuentos-de-jorge-luis-borges/): Curso en video sobre cuentos de Jorge Luis Borges: El Aleph, La biblioteca de Babel, Funes el memorioso y El jardín de senderos que se bifurcan. Incluido en la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [Jorge Luis Borges y la filosofía](https://www.poescritika.com/cursos/jorge-luis-borges-y-la-filosofia/): Curso en video sobre Jorge Luis Borges y la filosofía: verdad, laberintos, infinito, tiempo, identidad y metafísica en El Aleph, Tlön, Funes y más. Incluido en la Biblioteca Poescrítika. 5 sesiones, 9 h 30 min.
+- [Borges, poeta](https://www.poescritika.com/cursos/borges-poeta-la-poesia-de-jorge-luis-borges/): Curso en video sobre la poesía de Jorge Luis Borges: el tiempo, los espejos, la identidad, el amor y el lector. Incluido en la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [Para leer Rayuela](https://www.poescritika.com/cursos/para-leer-rayuela-de-julio-cortazar/): Curso en video sobre Rayuela de Julio Cortázar: vanguardias, estructura fragmentaria, la Maga y Oliveira, París y Buenos Aires, temas y estilo. Incluido en la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [Cuentos de Cortázar](https://www.poescritika.com/cursos/cuentos-de-julio-cortazar/): Curso en video sobre cuentos de Julio Cortázar: El perseguidor, Axolotl, Bestiario y La noche boca arriba. Lo fantástico en lo cotidiano. Incluido en la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [El Boom latinoamericano en 4 libros breves](https://www.poescritika.com/cursos/el-boom-latinoamericano-en-4-libros-breves/): Curso en video sobre el Boom en cuatro libros breves: El coronel no tiene quien le escriba, Aura, Los cachorros e Historias de cronopios y de famas. Incluido en la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [El Boom latinoamericano en 4 cuentos](https://www.poescritika.com/cursos/el-boom-latinoamericano-en-4-cuentos/): Curso en video sobre el Boom latinoamericano en cuatro cuentos: «Un señor muy viejo con unas alas enormes», «Chac Mool», «Los jefes» y «Casa tomada». Incluido en la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [4 mujeres del Boom latinoamericano](https://www.poescritika.com/cursos/4-mujeres-del-boom-latinoamericano/): Curso en video sobre cuatro escritoras del Boom latinoamericano: Elena Garro, Clarice Lispector, Silvina Ocampo y Cristina Peri Rossi. Incluido en la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [Vargas Llosa: La ciudad y los perros](https://www.poescritika.com/cursos/la-ciudad-y-los-perros-de-mario-vargas-llosa/): Curso en video sobre La ciudad y los perros de Mario Vargas Llosa: el Jaguar, el Poeta y el Esclavo, el Colegio Leoncio Prado, la estructura polifónica y el nacimiento del Boom. 4 sesiones, 7 h 30 min.
+- [Tras la pista de Los detectives salvajes](https://www.poescritika.com/cursos/los-detectives-salvajes-de-roberto-bolano/): Curso en video sobre Los detectives salvajes de Roberto Bolaño: Ulises Lima y Arturo Belano, los real visceralistas, la estructura polifónica y la literatura post-Boom. 4 sesiones, 7 h 30 min.
+- [El realismo mágico en La casa de los espíritus](https://www.poescritika.com/cursos/la-casa-de-los-espiritus-de-isabel-allende/): Curso en video sobre La casa de los espíritus de Isabel Allende: el realismo mágico, la saga de los Trueba y del Valle, Clara, Esteban y Alba. Incluido en la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [Elena Garro y Los recuerdos del porvenir](https://www.poescritika.com/cursos/elena-garro-y-los-recuerdos-del-porvenir/): Curso en video sobre Los recuerdos del porvenir de Elena Garro: Ixtepec, Isabel Moncada y el general Rosas, memoria, poder y el lenguaje poético de Garro. 4 sesiones, 7 h 30 min.
+- [La literatura de Sor Juana](https://www.poescritika.com/cursos/la-literatura-de-sor-juana-ines-de-la-cruz/): Curso en video sobre Sor Juana Inés de la Cruz: su época, sus sonetos de amor, su teatro, la Respuesta a sor Filotea, Neptuno alegórico y Primero sueño. 4 sesiones, 7 h 30 min.
+- [Miguel Ángel Asturias y El Señor Presidente](https://www.poescritika.com/cursos/miguel-angel-asturias-y-el-senor-presidente/): Curso en video sobre El Señor Presidente de Miguel Ángel Asturias, Premio Nobel: dictadura, mito, lenguaje poético y la figura del poder. Incluido en la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [El universo de Pessoa](https://www.poescritika.com/cursos/el-universo-de-fernando-pessoa/): Curso en video sobre Fernando Pessoa: la heteronimia, Álvaro de Campos, Alberto Caeiro, Ricardo Reis, el Libro del desasosiego y El banquero anarquista. 4 sesiones, 7 h 30 min.
+- [Vanguardias de la poesía hispánica](https://www.poescritika.com/cursos/vanguardias-de-la-poesia-hispanica/): Curso en video sobre las vanguardias de la poesía en español: antipoesía, surrealismo, creacionismo, estridentismo, ultraísmo, negritud y feminismo. Incluido en la Biblioteca Poescrítika. 5 sesiones, 9 h 30 min.
+- [La poesía de los Contemporáneos](https://www.poescritika.com/cursos/la-poesia-de-los-contemporaneos/): Curso en video sobre la poesía del grupo Contemporáneos: Xavier Villaurrutia, Jorge Cuesta, Salvador Novo, Gilberto Owen y José Gorostiza (Muerte sin fin). 5 sesiones, 9 h 30 min.
+- [Leer literaturas breves](https://www.poescritika.com/cursos/leer-literaturas-breves-microrrelato/): Curso en video para leer microrrelatos, fábulas, poemas en prosa y ensayos breves de Cortázar, Borges, Arreola, Monterroso, Kafka, Galeano y más. Incluido en la Biblioteca Poescrítika. 5 sesiones, 9 h 30 min.
+- [La Odisea de Homero](https://www.poescritika.com/cursos/la-odisea-de-homero/): Curso en video sobre La Odisea de Homero: la memoria oral, Telémaco y Odiseo, los relatos del viaje y el reconocimiento final. Incluido en la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [En busca del tiempo perdido](https://www.poescritika.com/cursos/en-busca-del-tiempo-perdido-de-marcel-proust/): Curso en video sobre En busca del tiempo perdido de Marcel Proust: lee Por el camino de Swann y analiza la memoria, los celos, el deseo y el estilo de Proust. 4 sesiones, 7 h 30 min.
+- [Taller de escritura literaria para principiantes](https://www.poescritika.com/cursos/taller-de-escritura-literaria-para-principiantes/): Taller de escritura literaria para principiantes en video con Abraham Truxillo: la metáfora y el poema, la narrativa y el ensayo. Incluido en la Biblioteca Poescrítika. 3 sesiones, 5 h 30 min.
+- [Taller de escritura de poesía](https://www.poescritika.com/cursos/taller-de-escritura-de-poesia/): Taller de escritura de poesía en video con Abraham Truxillo: ritmo y metáfora, vanguardia y experimentación, poesía de la experiencia cotidiana. Incluido en la Biblioteca Poescrítika. 3 sesiones, 5 h 30 min.
+- [Taller de escritura de cuento](https://www.poescritika.com/cursos/taller-de-escritura-de-cuento/): Taller de escritura de cuento en video con Abraham Truxillo: pregunta dramática, trama, personajes, diálogos, narradores, espacio y tiempo. Incluido en la Biblioteca Poescrítika. 3 sesiones, 5 h 30 min.
+- [Taller de escritura de microrrelato](https://www.poescritika.com/cursos/taller-de-escritura-de-microrrelato/): Taller de escritura de microrrelato en video con Abraham Truxillo: estructura, golpe de sentido, fábula y géneros colindantes. Incluido en la Biblioteca Poescrítika. 3 sesiones, 5 h 30 min.
+
+## Próximamente en la Biblioteca
+
+- [Kafka: La metamorfosis y otros relatos](https://www.poescritika.com/cursos/kafka-la-metamorfosis-y-otros-relatos/): curso grabado que se sumará próximamente a la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [La insoportable levedad del ser](https://www.poescritika.com/cursos/la-insoportable-levedad-del-ser-de-milan-kundera/): curso grabado que se sumará próximamente a la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [Ensayo sobre la ceguera](https://www.poescritika.com/cursos/ensayo-sobre-la-ceguera-de-jose-saramago/): curso grabado que se sumará próximamente a la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+- [El Aleph de Borges](https://www.poescritika.com/cursos/el-aleph-de-jorge-luis-borges/): curso grabado que se sumará próximamente a la Biblioteca Poescrítika. 4 sesiones, 7 h 30 min.
+
+## Avisos legales
+
+- Política de Privacidad: https://www.poescritika.com/politica-de-privacidad
+- Términos y Condiciones: https://www.poescritika.com/terminos-y-condiciones
+- Términos y Condiciones de la Biblioteca: https://www.poescritika.com/terminos-y-condiciones-bibliotecapoescritika
+
+## Contacto
+
+- Ventas e informes: hola@poescritika.com
+- Soporte y preguntas: soporte@poescritika.com
+- WhatsApp: +52 55 3678 0543

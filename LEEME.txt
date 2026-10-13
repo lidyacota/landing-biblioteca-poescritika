@@ -1,0 +1,66 @@
+SITIO DE POESCRÍTIKA · www.poescritika.com
+=========================================
+
+QUÉ HAY EN ESTA CARPETA
+  index.html ........................ Página principal de Poescrítika (todos los cursos)
+  biblioteca/ ....................... Página de la Biblioteca Poescrítika (la que antes era la principal)
+  cursos/ ........................... Una página por cada curso de la Biblioteca
+  prueba-gratis/ .................... Página para anuncios (sin menú): prueba de 7 días
+  quienes-somos/ .................... Quiénes somos (solo se enlaza desde el pie de página)
+  politica-de-privacidad.html ....... Copia exacta de tu página actual
+  terminos-y-condiciones.html ....... Copia exacta de tu página actual
+  terminos-y-condiciones-bibliotecapoescritika.html ... Copia exacta de tu página actual
+  404.html .......................... Se muestra si alguien abre una dirección que no existe
+  img/ .............................. Todas las imágenes
+  sitemap.xml, robots.txt ........... Para Google y los buscadores
+  llms.txt, llms-full.txt ........... Para los buscadores con IA (resumen y fichas completas)
+  CNAME ............................. Le dice a GitHub que el sitio es www.poescritika.com
+  _guias/ ........................... Instrucciones (no se publican)
+
+Las páginas legales conservan sus direcciones de siempre:
+  www.poescritika.com/politica-de-privacidad
+  www.poescritika.com/terminos-y-condiciones
+  www.poescritika.com/terminos-y-condiciones-bibliotecapoescritika
+(GitHub Pages abre el archivo .html aunque la dirección no lleve «.html».)
+
+QUÉ SUBIR A GITHUB
+Todo el contenido de esta carpeta, tal cual, a la raíz del repositorio.
+
+ORDEN PARA CAMBIAR DE GOOGLE SITES AL SITIO NUEVO
+1. Publica el sitio en GitHub Pages con el dominio www.poescritika.com
+   (Settings -> Pages; el archivo CNAME ya trae el dominio).
+2. En Google Sites, quita www.poescritika.com de los dominios personalizados.
+3. En el DNS de poescritika.com (Cloudflare), cambia el registro CNAME de "www"
+   de ghs.googlehosted.com a <tu-usuario>.github.io
+4. Espera a que GitHub active el certificado y marca "Enforce HTTPS".
+5. Cuando el sitio nuevo ya se vea en www.poescritika.com, activa las
+   redirecciones de los subdominios viejos: _guias/REDIRECCIONES-CLOUDFLARE.txt
+
+PÍXEL DE META (PIXEL BIBLIOTECA POESCRITIKA, 1813651252404108)
+Está en todas las páginas y solo se activa en www.poescritika.com
+(al abrir las páginas desde tu computadora no envía nada a Meta).
+  PageView ......... cada visita a cualquier página
+  ViewContent ...... visita a la página de un curso
+  InitiateCheckout . clic en cualquier botón de pago de Hotmart (con plan y precio)
+  Lead ............. clic en el grupo de avisos de WhatsApp
+  Contact .......... clic en el WhatsApp de ayuda
+Las compras las sigue reportando Hotmart con el mismo píxel.
+
+GOOGLE TAG MANAGER (GTM-WKJ2QZ3F) Y GOOGLE ANALYTICS
+Está en todas las páginas y solo se activa en www.poescritika.com.
+Manda view_item (curso visitado), begin_checkout (clic de pago, con curso, plan,
+botón y sck) y clic_whatsapp. Cómo configurarlo: _guias/GOOGLE-ANALYTICS.txt
+
+ENLACES PARA REDES Y ANUNCIOS (la página pasa el origen a Hotmart sola)
+  https://www.poescritika.com/?utm_source=instagram
+  https://www.poescritika.com/biblioteca/?utm_source=facebook
+  https://www.poescritika.com/prueba-gratis/?utm_source=facebook&utm_campaign=prueba
+
+BOTONES (pestaña SCK en Hotmart). Formato: oficial-<lugar>-<plan>
+  Página principal ... oficial-inicio-portada-..., oficial-inicio-cursos-..., oficial-inicio-planes-...
+  Biblioteca ......... oficial-portada-..., oficial-muestra-..., oficial-cursos-..., oficial-planes-..., oficial-cierre-...
+  Prueba gratis ...... oficial-prueba-portada-..., oficial-prueba-planes-...
+  Páginas de curso ... oficial-<curso>-...
+
+AGREGAR PARÁMETROS DESPUÉS
+Al final de cada página está el bloque CONFIG.

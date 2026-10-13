@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<!-- Google Tag Manager (solo se activa en www.poescritika.com) -->
+<script>
+window.dataLayer = window.dataLayer || [];
+if (/(^|\.)poescritika\.com$/.test(location.hostname)) {
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WKJ2QZ3F');
+}
+</script>
+<!-- End Google Tag Manager -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Página no encontrada | Poescrítika</title>
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/png" href="/img/icono-escuela-de-literatura_poescritika.png">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0b0b0b;color:#fafafa;font-family:"Inter",system-ui,sans-serif;text-align:center;padding:24px;box-sizing:border-box}
+h1{font-family:"Oswald","Arial Narrow",sans-serif;text-transform:uppercase;font-size:clamp(2rem,6vw,3.4rem);margin:18px 0 10px}
+p{color:#b9b9b9;max-width:46ch;margin:0 auto 26px;line-height:1.6}
+nav{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+a{display:inline-block;text-decoration:none;font-family:"Oswald",sans-serif;text-transform:uppercase;letter-spacing:.06em;padding:13px 22px;border-radius:999px;border:2px solid #fff;color:#fff}
+a.oro{background:#e2b33c;border-color:#e2b33c;color:#0b0b0b}
+img{border-radius:50%}
+</style>
+<!-- Píxel de Meta: PIXEL BIBLIOTECA POESCRITIKA -->
+<script>
+(function(){
+  if (/(^|\.)poescritika\.com$/.test(location.hostname)) {
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  } else {
+    window.fbq = function(){ try { console.log("[píxel de Meta, solo prueba]", JSON.stringify([].slice.call(arguments))); } catch(e) {} };
+  }
+  fbq('init', '1813651252404108');
+  fbq('track', 'PageView');
+})();
+</script>
+<!-- Fin del píxel de Meta -->
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKJ2QZ3F"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<noscript><img height="1" width="1" style="display:none" alt="" src="https://www.facebook.com/tr?id=1813651252404108&amp;ev=PageView&amp;noscript=1"></noscript>
+<main>
+  <img src="/img/logo-escuela-de-literatura_poescritika.webp" alt="Poescrítika" width="72" height="72">
+  <h1>Esta página ya no está aquí</h1>
+  <p>Nuestros cursos ahora están reunidos en un solo lugar. Encuentra el que buscabas en la página principal o en la Biblioteca Poescrítika.</p>
+  <nav><a class="oro" href="/#cursos">Ver los cursos</a><a href="/biblioteca/">Biblioteca Poescrítika</a><a href="/quienes-somos/">Quiénes somos</a></nav>
+</main>
+<!-- Eventos del píxel de Meta -->
+<script>
+(function(){
+  if (typeof fbq !== "function") return;
+  var PRECIOS = {mensual: 14, semestral: 70, anual: 126};
+  var contenido = document.querySelector('meta[name="pixel-contenido"]');
+  if (contenido) {
+    fbq("track", "ViewContent", {content_name: contenido.content, content_category: contenido.dataset.categoria || "Curso", content_type: "product"});
+  }
+  document.addEventListener("click", function(ev){
+    var a = ev.target.closest ? ev.target.closest("a[href]") : null;
+    if (!a) return;
+    var h = a.href || "";
+    if (h.indexOf("pay.hotmart.com") > -1) {
+      var plan = a.dataset.plan || "";
+      var datos = {currency: "USD", content_type: "product"};
+      if (a.dataset.valor) datos.value = +a.dataset.valor;
+      else if (PRECIOS[plan]) datos.value = PRECIOS[plan];
+      datos.content_name = a.dataset.producto || ("Biblioteca Poescrítika" + (plan ? ", plan " + plan : ""));
+      fbq("track", "InitiateCheckout", datos);
+    } else if (h.indexOf("chat.whatsapp.com") > -1) {
+      fbq("track", "Lead", {content_name: "Grupo de avisos de WhatsApp"});
+    } else if (/wa\.me\/\d/.test(h)) {
+      fbq("track", "Contact", {content_name: "WhatsApp de ayuda"});
+    }
+  }, true);
+})();
+</script>
+<!-- Avisos a Google Analytics -->
+<script>
+(function(){
+  var dl = window.dataLayer = window.dataLayer || [];
+  var real = /(^|\.)poescritika\.com$/.test(location.hostname);
+  function enviar(o){ dl.push({ecommerce: null}); dl.push(o); if (!real) { try { console.log("[Analytics, solo prueba]", JSON.stringify(o)); } catch(e) {} } }
+  var PRECIOS = {mensual: 14, semestral: 70, anual: 126};
+  var NOMBRES = {"/": "Página principal", "/biblioteca/": "Biblioteca Poescrítika", "/prueba-gratis/": "Prueba gratis", "/quienes-somos/": "Quiénes somos"};
+  var meta = document.querySelector('meta[name="pixel-contenido"]');
+  var curso = meta ? meta.content : "";
+  var ruta = location.pathname.replace(/index\.html$/, "");
+  var pagina = curso || NOMBRES[ruta] || document.title;
+  if (curso) {
+    enviar({event: "view_item", curso: curso, ecommerce: {currency: "USD", items: [{item_id: ruta, item_name: curso, item_category: "Curso"}]}});
+  }
+  document.addEventListener("click", function(ev){
+    var a = ev.target.closest ? ev.target.closest("a[href]") : null;
+    if (!a) return;
+    var h = a.href || "";
+    if (h.indexOf("pay.hotmart.com") > -1) {
+      var plan = a.dataset.plan || "";
+      var valor = a.dataset.valor ? +a.dataset.valor : (PRECIOS[plan] || 0);
+      var sck = (h.match(/[?&]sck=([^&]+)/) || [])[1] || "";
+      enviar({event: "begin_checkout", curso: pagina, plan: plan, boton: a.dataset.lugar || "", sck: decodeURIComponent(sck),
+              ecommerce: {currency: "USD", value: valor, items: [{item_id: ruta, item_name: pagina, item_variant: plan, price: valor, quantity: 1}]}});
+    } else if (h.indexOf("chat.whatsapp.com") > -1 || /wa\.me\/\d/.test(h)) {
+      enviar({event: "clic_whatsapp", tipo: h.indexOf("chat.whatsapp.com") > -1 ? "grupo de avisos" : "ayuda", curso: pagina});
+    }
+  }, true);
+})();
+</script>
+</body>
+</html>
