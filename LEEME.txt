@@ -14,6 +14,7 @@ QUÉ HAY EN ESTA CARPETA
   img/ .............................. Todas las imágenes
   sitemap.xml, robots.txt ........... Para Google y los buscadores
   llms.txt, llms-full.txt ........... Para los buscadores con IA (resumen y fichas completas)
+  catalogo-meta.csv ................. Catálogo de productos para Meta (31 cursos; no se enlaza ni va en el sitemap)
   CNAME ............................. Le dice a GitHub que el sitio es www.poescritika.com
   _guias/ ........................... Instrucciones (no se publican)
 
@@ -40,7 +41,7 @@ PÍXEL DE META (PIXEL BIBLIOTECA POESCRITIKA, 1813651252404108)
 Está en todas las páginas y solo se activa en www.poescritika.com
 (al abrir las páginas desde tu computadora no envía nada a Meta).
   PageView ......... cada visita a cualquier página
-  ViewContent ...... visita a la página de un curso
+  ViewContent ...... visita a la página de un curso (en los 31 disponibles, con content_ids = slug)
   InitiateCheckout . clic en cualquier botón de pago de Hotmart (con plan y precio)
   Lead ............. clic en el grupo de avisos de WhatsApp
   Contact .......... clic en el WhatsApp de ayuda

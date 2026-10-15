@@ -151,7 +151,9 @@ if (location.protocol === "file:") {
   var PRECIOS = {mensual: 14, semestral: 70, anual: 126};
   var contenido = document.querySelector('meta[name="pixel-contenido"]');
   if (contenido) {
-    fbq("track", "ViewContent", {content_name: contenido.content, content_category: contenido.dataset.categoria || "Curso", content_type: "product"});
+    var vc = {content_name: contenido.content, content_category: contenido.dataset.categoria || "Curso", content_type: "product"};
+    if (contenido.dataset.id) { vc.content_ids = [contenido.dataset.id]; vc.value = 14; vc.currency = "USD"; }
+    fbq("track", "ViewContent", vc);
   }
   document.addEventListener("click", function(ev){
     var a = ev.target.closest ? ev.target.closest("a[href]") : null;
@@ -163,6 +165,7 @@ if (location.protocol === "file:") {
       if (a.dataset.valor) datos.value = +a.dataset.valor;
       else if (PRECIOS[plan]) datos.value = PRECIOS[plan];
       datos.content_name = a.dataset.producto || ("Biblioteca Poescrítika" + (plan ? ", plan " + plan : ""));
+      if (contenido && contenido.dataset.id) datos.content_ids = [contenido.dataset.id];
       fbq("track", "InitiateCheckout", datos);
     } else if (h.indexOf("chat.whatsapp.com") > -1) {
       fbq("track", "Lead", {content_name: "Grupo de avisos de WhatsApp"});

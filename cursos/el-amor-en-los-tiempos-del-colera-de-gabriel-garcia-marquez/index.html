@@ -626,7 +626,7 @@ b,strong{font-weight:600}
 .g2 .letra-chica{color:#9a9a9a;font-size:.85rem;margin-top:10px}
 @media(max-width:700px){.garantia.g2{grid-template-columns:1fr;text-align:center;padding:34px 22px;gap:18px}.g2 .g-checks{justify-content:center}.g2 .sello-garantia{width:150px}}
 </style>
-<meta name="pixel-contenido" content="El amor en los tiempos del cólera" data-categoria="Curso de la Biblioteca">
+<meta name="pixel-contenido" content="El amor en los tiempos del cólera" data-categoria="Curso de la Biblioteca" data-id="el-amor-en-los-tiempos-del-colera-de-gabriel-garcia-marquez">
 <!-- Píxel de Meta: PIXEL BIBLIOTECA POESCRITIKA -->
 <script>
 (function(){
@@ -885,7 +885,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </article>
     </div>
     <p class="nota-planes reveal"><strong>Así activas tu prueba:</strong> en la página de pago se pide tu tarjeta y marcas la casilla <strong>«Quiero un periodo gratis»</strong>. Si cancelas antes del día 7, no se te cobra nada.</p>
-    <p class="aclaracion centro reveal">Los precios están en dólares como referencia. Hotmart te muestra el monto exacto en tu moneda, con los impuestos de tu país, antes de que confirmes.</p>
+    <p class="aclaracion centro reveal">Los precios están en dólares estadounidenses. Hotmart te muestra el monto exacto en tu moneda, con los impuestos de tu país, antes de que confirmes.</p>
     <div class="garantia g2 reveal">
       <div class="sello-garantia" aria-hidden="true"><svg viewBox="0 0 140 170" role="img"><path d="M46 104 L30 162 L48 152 L58 168 L70 112Z" fill="#c9971f"/><path d="M94 104 L110 162 L92 152 L82 168 L70 112Z" fill="#a87c12"/><polygon points="70.0,2.0 77.4,9.5 86.6,4.2 91.8,13.3 102.0,10.6 104.7,20.8 115.3,20.7 115.2,31.3 125.4,34.0 122.7,44.2 131.8,49.4 126.5,58.6 134.0,66.0 126.5,73.4 131.8,82.6 122.7,87.8 125.4,98.0 115.2,100.7 115.3,111.3 104.7,111.2 102.0,121.4 91.8,118.7 86.6,127.8 77.4,122.5 70.0,130.0 62.6,122.5 53.4,127.8 48.2,118.7 38.0,121.4 35.3,111.2 24.7,111.3 24.8,100.7 14.6,98.0 17.3,87.8 8.2,82.6 13.5,73.4 6.0,66.0 13.5,58.6 8.2,49.4 17.3,44.2 14.6,34.0 24.8,31.3 24.7,20.7 35.3,20.8 38.0,10.6 48.2,13.3 53.4,4.2 62.6,9.5" fill="#e2b33c"/><circle cx="70" cy="66" r="50" fill="#0b0b0b"/><circle cx="70" cy="66" r="45" fill="none" stroke="#e2b33c" stroke-width="1.5" stroke-dasharray="3 3"/><polygon points="70.0,26.0 72.0,31.2 77.6,31.5 73.2,35.1 74.7,40.5 70.0,37.4 65.3,40.5 66.8,35.1 62.4,31.5 68.0,31.2" fill="#e2b33c"/><text x="70" y="74" text-anchor="middle" font-family="Oswald, Arial Narrow, sans-serif" font-weight="600" font-size="32" fill="#fff">7</text><text x="70" y="88" text-anchor="middle" font-family="Oswald, Arial Narrow, sans-serif" font-size="11" letter-spacing="2" fill="#e2b33c">DÍAS DE</text><text x="70" y="101" text-anchor="middle" font-family="Oswald, Arial Narrow, sans-serif" font-size="11" letter-spacing="1.5" fill="#fff">GARANTÍA</text></svg></div>
       <div>
@@ -1120,7 +1120,9 @@ document.querySelectorAll("[data-carrusel]").forEach(function(c){
   var PRECIOS = {mensual: 14, semestral: 70, anual: 126};
   var contenido = document.querySelector('meta[name="pixel-contenido"]');
   if (contenido) {
-    fbq("track", "ViewContent", {content_name: contenido.content, content_category: contenido.dataset.categoria || "Curso", content_type: "product"});
+    var vc = {content_name: contenido.content, content_category: contenido.dataset.categoria || "Curso", content_type: "product"};
+    if (contenido.dataset.id) { vc.content_ids = [contenido.dataset.id]; vc.value = 14; vc.currency = "USD"; }
+    fbq("track", "ViewContent", vc);
   }
   document.addEventListener("click", function(ev){
     var a = ev.target.closest ? ev.target.closest("a[href]") : null;
@@ -1132,6 +1134,7 @@ document.querySelectorAll("[data-carrusel]").forEach(function(c){
       if (a.dataset.valor) datos.value = +a.dataset.valor;
       else if (PRECIOS[plan]) datos.value = PRECIOS[plan];
       datos.content_name = a.dataset.producto || ("Biblioteca Poescrítika" + (plan ? ", plan " + plan : ""));
+      if (contenido && contenido.dataset.id) datos.content_ids = [contenido.dataset.id];
       fbq("track", "InitiateCheckout", datos);
     } else if (h.indexOf("chat.whatsapp.com") > -1) {
       fbq("track", "Lead", {content_name: "Grupo de avisos de WhatsApp"});
