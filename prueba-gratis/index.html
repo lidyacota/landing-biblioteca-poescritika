@@ -626,7 +626,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h3>Plan mensual</h3>
         <p class="precio">14 <small>USD al mes</small></p>
         <p>Acceso completo a la Biblioteca. Se renueva cada mes y puedes cancelar cuando quieras. Ideal para conocer la Biblioteca o ver a fondo un curso concreto.</p>
-        <a class="btn btn-primario" data-lugar="planes" data-plan="mensual" href="https://pay.hotmart.com/Y107433190A?off=z67qhu3s&amp;sck=oficial-prueba-planes-mensual">Empezar 7 días gratis<span>Después, 14 USD al mes</span></a>
+        <a class="btn btn-primario" data-lugar="prueba-planes" data-plan="mensual" href="https://pay.hotmart.com/Y107433190A?off=z67qhu3s&amp;sck=oficial-prueba-planes-mensual">Empezar 7 días gratis<span>Después, 14 USD al mes</span></a>
       </article>
       <article class="plan destacado reveal retraso-1">
         <span class="insignia">Un mes gratis · Ahorras 14 USD</span>
@@ -635,7 +635,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p class="precio">70 <small>USD cada 6 meses</small></p>
         <p class="equivale">Equivale a 11.67 USD al mes.</p>
         <p>Acceso completo durante seis meses: ahorras 14 USD, pagas 5 meses y recibes 6. Se renueva cada seis meses y puedes cancelar cuando quieras. Ideal para recorrer varios cursos a tu ritmo.</p>
-        <a class="btn btn-oro" data-lugar="planes" data-plan="semestral" href="https://pay.hotmart.com/Y107433190A?off=eoqjklus&amp;sck=oficial-prueba-planes-semestral">Empezar 7 días gratis<span>Después, 70 USD cada 6 meses</span></a>
+        <a class="btn btn-oro" data-lugar="prueba-planes" data-plan="semestral" href="https://pay.hotmart.com/Y107433190A?off=eoqjklus&amp;sck=oficial-prueba-planes-semestral">Empezar 7 días gratis<span>Después, 70 USD cada 6 meses</span></a>
       </article>
       <article class="plan reveal retraso-2">
         <span class="insignia" style="background:var(--negro);color:var(--oro)">Mejor precio · Ahorras 42 USD</span>
@@ -644,7 +644,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <p class="precio">126 <small>USD al año</small></p>
         <p class="equivale">Equivale a 10.50 USD al mes.</p>
         <p>Acceso completo durante doce meses: ahorras 42 USD, pagas 9 meses y recibes 12. Se renueva cada año y puedes cancelar cuando quieras. Ideal para recorrer las rutas completas con calma.</p>
-        <a class="btn btn-primario" data-lugar="planes" data-plan="anual" href="https://pay.hotmart.com/Y107433190A?off=6s27356g&amp;checkoutMode=6&amp;sck=oficial-prueba-planes-anual">Empezar 7 días gratis<span>Después, 126 USD al año</span></a>
+        <a class="btn btn-primario" data-lugar="prueba-planes" data-plan="anual" href="https://pay.hotmart.com/Y107433190A?off=6s27356g&amp;checkoutMode=6&amp;sck=oficial-prueba-planes-anual">Empezar 7 días gratis<span>Después, 126 USD al año</span></a>
       </article>
     </div>
     <p class="nota-planes reveal"><strong>Así activas tu prueba:</strong> en la página de pago se pide tu tarjeta y marcas la casilla <strong>«Quiero un periodo gratis»</strong>. Si cancelas antes del día 7, no se te cobra nada.</p>
@@ -868,7 +868,7 @@ document.querySelectorAll("[data-carrusel]").forEach(function(c){
   var real = /(^|\.)poescritika\.com$/.test(location.hostname);
   function enviar(o){ dl.push({ecommerce: null}); dl.push(o); if (!real) { try { console.log("[Analytics, solo prueba]", JSON.stringify(o)); } catch(e) {} } }
   var PRECIOS = {mensual: 14, semestral: 70, anual: 126};
-  var NOMBRES = {"/": "Página principal", "/biblioteca/": "Biblioteca Poescrítika", "/prueba-gratis/": "Prueba gratis", "/quienes-somos/": "Quiénes somos"};
+  var NOMBRES = {"/": "Página principal", "/biblioteca/": "Biblioteca Poescrítika", "/prueba-gratis/": "Prueba gratis", "/lectores/": "Lectores de cursos en vivo", "/quienes-somos/": "Quiénes somos"};
   var meta = document.querySelector('meta[name="pixel-contenido"]');
   var curso = meta ? meta.content : "";
   var ruta = location.pathname.replace(/index\.html$/, "");

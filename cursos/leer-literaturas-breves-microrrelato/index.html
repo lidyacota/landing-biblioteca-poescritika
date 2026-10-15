@@ -1195,7 +1195,7 @@ document.querySelectorAll("[data-carrusel]").forEach(function(c){
   var real = /(^|\.)poescritika\.com$/.test(location.hostname);
   function enviar(o){ dl.push({ecommerce: null}); dl.push(o); if (!real) { try { console.log("[Analytics, solo prueba]", JSON.stringify(o)); } catch(e) {} } }
   var PRECIOS = {mensual: 14, semestral: 70, anual: 126};
-  var NOMBRES = {"/": "Página principal", "/biblioteca/": "Biblioteca Poescrítika", "/prueba-gratis/": "Prueba gratis", "/quienes-somos/": "Quiénes somos"};
+  var NOMBRES = {"/": "Página principal", "/biblioteca/": "Biblioteca Poescrítika", "/prueba-gratis/": "Prueba gratis", "/lectores/": "Lectores de cursos en vivo", "/quienes-somos/": "Quiénes somos"};
   var meta = document.querySelector('meta[name="pixel-contenido"]');
   var curso = meta ? meta.content : "";
   var ruta = location.pathname.replace(/index\.html$/, "");
