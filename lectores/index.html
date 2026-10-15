@@ -18,7 +18,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 
 <title>Biblioteca Poescrítika: para quienes ya tomaron un curso con nosotros | Poescrítika</title>
-<meta name="description" content="La Biblioteca Poescrítika es una suscripción nueva, aparte de los cursos en vivo: más de 30 cursos de literatura en video. Pruébala gratis por 7 días.">
+<meta name="description" content="La Biblioteca Poescrítika es una suscripción nueva, aparte de los cursos vía Zoom: más de 30 cursos de literatura en video. Pruébala gratis por 7 días.">
 <meta name="author" content="Poescrítika">
 <meta name="robots" content="noindex, follow">
 <link rel="canonical" href="https://www.poescritika.com/lectores/">
@@ -419,7 +419,7 @@ b,strong{font-weight:600}
 .pie-sitio{display:flex;flex-wrap:wrap;gap:8px 22px;width:100%}
 .pie-sitio a{color:inherit}
 
-/* ===== Lectores (quienes ya tomaron cursos en vivo): letra más grande ===== */
+/* ===== Lectores (quienes ya tomaron cursos vía Zoom): letra más grande ===== */
 body{font-size:19px}
 .ante-portada{display:inline-block;font-family:var(--titulo);font-weight:500;text-transform:uppercase;letter-spacing:.16em;font-size:1rem;color:var(--oro);margin-bottom:14px;animation:aparecer 1s .1s var(--curva) both}
 .portada-lectores h1{font-size:clamp(2.2rem,5.6vw,4.2rem);line-height:1.02;max-width:18ch}
@@ -467,7 +467,11 @@ body{font-size:19px}
 body .seccion .nota-tarjeta,body .portada .nota-tarjeta,body .seccion .nota-garantia,body .portada .nota-garantia{font-size:1em;color:#ececec}
 body .aclaracion{font-size:1em;font-style:normal;color:#2b2b2b}
 body .g2 .letra-chica{font-size:1em;color:#e6e6e6}
-.firma{margin-top:40px;font-family:var(--titulo);text-transform:uppercase;letter-spacing:.14em;color:var(--oro)}
+.bloque-l{margin-top:34px;background:var(--blanco);border:1px solid var(--linea);border-radius:var(--radio);padding:clamp(22px,4vw,34px)}
+.bloque-l h3{display:flex;align-items:center;gap:14px;font-size:clamp(1.4rem,3.2vw,1.8rem)}
+.bloque-l h3 .caja-icono{flex:none;margin:0}
+.bloque-l > p{font-size:1.08rem;margin:0}
+margin-top:40px;font-family:var(--titulo);text-transform:uppercase;letter-spacing:.14em;color:var(--oro)}
 </style>
 <!-- Píxel de Meta: PIXEL BIBLIOTECA POESCRITIKA -->
 <script>
@@ -513,7 +517,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="contenedor portada-contenido">
     <span class="ante-portada">Para quienes ya tomaron un curso con nosotros</span>
     <h1><span class="linea"><span>La Biblioteca Poescrítika: más de 30 cursos de literatura en video</span></span></h1>
-    <p class="lema">Es una suscripción nueva y aparte: los cursos en vivo que tomaste no incluyen acceso a ella. Las grabaciones que descargaste siguen siendo tuyas.</p>
+    <p class="lema">Es una suscripción nueva y aparte: los cursos vía Zoom en los que ya te habías inscrito no incluyen acceso a ella. Las grabaciones que descargaste siguen siendo tuyas.</p>
     <p class="precio-portada">Pruébala gratis por 7 días. Después, 14 USD al mes. Cancela cuando quieras.</p>
     <div class="ctas ctas-portada">
         <a class="btn btn-oro" data-lugar="lectores-portada" data-plan="mensual" href="https://pay.hotmart.com/Y107433190A?off=z67qhu3s&amp;sck=oficial-lectores-portada-mensual">Empieza tus 7 días gratis<span>Después, 14 USD al mes</span></a>
@@ -524,45 +528,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
-<!-- ================= LO QUE YA TIENES ================= -->
-<section class="seccion papel" id="lo-que-ya-tienes">
-  <div class="contenedor">
+<!-- ================= TUS GRABACIONES Y LA BIBLIOTECA ================= -->
+<section class="seccion papel" id="tus-grabaciones">
+  <div class="estrecho">
     <div class="centro">
-      <span class="antetitulo reveal">Dos cosas distintas</span>
-      <h2 class="reveal">Lo que ya tienes y lo que es nuevo</h2>
+      <span class="antetitulo reveal">Si ya tomaste un curso vía Zoom</span>
+      <h2 class="reveal">Los cursos vía Zoom y la Biblioteca son dos cosas distintas</h2>
     </div>
-    <div class="dos-cajas">
-      <article class="caja-l reveal">
-        <span class="caja-icono"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M12 10v6M9.5 13.5L12 16l2.5-2.5"/></svg></span>
-        <h3>Tus cursos en vivo</h3>
-        <ul class="lista-check">
-          <li>Cada curso en vivo incluía una carpeta de Google Drive para descargar sus grabaciones durante 30 días.</li>
-          <li>Lo que descargaste es tuyo para siempre: queda guardado en tu computadora o en tu celular.</li>
-          <li>La carpeta es para descargar los videos, no para verlos en línea.</li>
+    <div class="bloque-l reveal">
+      <h3><span class="caja-icono"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7a2 2 0 012-2h4l2 2h8a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><path d="M12 10v6M9.5 13.5L12 16l2.5-2.5"/></svg></span>Las grabaciones de los cursos vía Zoom a los que te inscribiste son tuyas para siempre</h3>
+      <p>Cada curso vía Zoom en el que te inscribiste con nosotros anteriormente incluía una carpeta de Google Drive para descargar sus grabaciones durante 30 días. Lo que descargaste queda guardado en tu computadora o en tu celular y es tuyo para siempre, tengas o no la suscripción a la Biblioteca.</p>
+      <div class="caja-nota">
+        <p><strong>¿Necesitas descargarlas otra vez?</strong> Escribe a <a href="mailto:soporte@poescritika.com">soporte@poescritika.com</a> con estos datos:</p>
+        <ul>
+          <li>el nombre con el que te inscribiste;</li>
+          <li>el correo con el que te inscribiste;</li>
+          <li>el nombre del curso;</li>
+          <li>el mes y el año en que lo tomaste, si los recuerdas.</li>
         </ul>
-        <div class="caja-nota">
-          <p><strong>¿Necesitas descargarlas otra vez?</strong> Escribe a <a href="mailto:soporte@poescritika.com">soporte@poescritika.com</a> con estos datos:</p>
-          <ul>
-            <li>el nombre con el que te inscribiste;</li>
-            <li>el correo con el que te inscribiste;</li>
-            <li>el nombre del curso;</li>
-            <li>el mes y el año en que lo tomaste, si los recuerdas.</li>
-          </ul>
-          <p>Te daremos de nuevo acceso a la carpeta. Estas solicitudes se atienden solo por correo.</p>
-        </div>
-      </article>
-      <article class="caja-l caja-nueva reveal retraso-1">
-        <span class="caja-icono"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h13v12H3z"/><path d="M16 9l5-3v10l-5-3"/></svg></span>
-        <h3>La Biblioteca Poescrítika</h3>
-        <ul class="lista-check">
-          <li>Más de 30 cursos en video, entre ellos los que siempre quisiste tomar y quedaron pendientes.</li>
-          <li>Los ves en línea, sin necesidad de descargar nada, en computadora, tableta o celular.</li>
-          <li>Es una suscripción aparte, desde 14 USD al mes, que empieza con 7 días gratis.</li>
-          <li>Puedes ver los cursos mientras tu suscripción esté activa.</li>
-        </ul>
-      </article>
+        <p>Te daremos de nuevo acceso a la carpeta para que descargues tus cursos. La carpeta es para descargar los videos, no para verlos en línea. Estas solicitudes se atienden solo por correo.</p>
+      </div>
     </div>
-    <p class="aviso-claro reveal">Tomar un curso en vivo no da acceso a la Biblioteca, y suscribirte a la Biblioteca no cambia nada de lo que ya tienes.</p>
+    <div class="bloque-l reveal">
+      <h3><span class="caja-icono"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5h13v12H3z"/><path d="M16 9l5-3v10l-5-3"/></svg></span>La Biblioteca Poescrítika es una suscripción nueva y aparte</h3>
+      <p>Reúne más de 30 cursos en video, entre ellos los que siempre quisiste tomar y quedaron pendientes. Los ves en línea, en computadora, tableta o celular, mientras tu suscripción esté activa. Empieza con 7 días gratis; después, desde 14 USD al mes.</p>
+    </div>
+    <p class="aviso-claro reveal">Haber tomado un curso vía Zoom no da acceso a la Biblioteca, y suscribirte a la Biblioteca no cambia nada de lo que ya tienes.</p>
   </div>
 </section>
 
@@ -710,7 +701,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p class="pie-video reveal">Un fragmento real del curso «Viaje a Macondo», sobre "Cien años de soledad", de Gabriel García Márquez.</p>
     <div class="profe-breve reveal">
       <img src="../img/abraham-truxillo-profesor-de-literatura_poescritika.webp" alt="Abraham Truxillo, profesor de literatura de Poescrítika" width="900" height="900" loading="lazy" decoding="async">
-      <p>Las sesiones las imparte <strong>Abraham Truxillo</strong>, poeta, ensayista y narrador, licenciado en Letras Hispánicas por la UNAM. Es el profesor de los cursos de Poescrítika y de todos los cursos de la Biblioteca.</p>
+      <p>Las sesiones las imparte <strong>Abraham Truxillo</strong>, poeta, ensayista y narrador, licenciado en Letras Hispánicas por la UNAM. Es el profesor de todos los cursos de la Biblioteca.</p>
     </div>
   </div>
 </section>
@@ -802,15 +793,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <h2 class="reveal">Preguntas frecuentes</h2>
     </div>
     <div class="faq">
-<details class="faq-item reveal" open><summary>¿Ya tengo acceso a la Biblioteca por haber tomado cursos en vivo?<span class="faq-icono" aria-hidden="true"></span></summary><div class="faq-respuesta"><p>No. La Biblioteca es una suscripción nueva y aparte; los cursos en vivo no incluyen acceso a ella. Lo que compraste sigue siendo tuyo: las grabaciones que descargaste de la carpeta de cada curso.</p></div></details>
-<details class="faq-item reveal" open><summary>¿Qué pasa con las grabaciones de mis cursos en vivo?<span class="faq-icono" aria-hidden="true"></span></summary><div class="faq-respuesta"><p>Son tuyas para siempre: lo que descargaste queda guardado en tu computadora o en tu celular. Si necesitas descargarlas otra vez, escribe a <a href="mailto:soporte@poescritika.com">soporte@poescritika.com</a> con estos datos:</p><ul><li>el nombre y el correo con los que te inscribiste;</li><li>el nombre del curso;</li><li>el mes y el año en que lo tomaste, si los recuerdas.</li></ul><p>Te daremos de nuevo acceso a la carpeta. La carpeta es para descargar los videos, no para verlos en línea. Estas solicitudes se atienden solo por correo.</p></div></details>
+<details class="faq-item reveal" open><summary>¿Ya tengo acceso a la Biblioteca por haber tomado cursos vía Zoom?<span class="faq-icono" aria-hidden="true"></span></summary><div class="faq-respuesta"><p>No. La Biblioteca es una suscripción nueva y aparte; los cursos vía Zoom no incluyen acceso a ella. Lo que compraste sigue siendo tuyo: las grabaciones que descargaste de la carpeta de cada curso.</p></div></details>
+<details class="faq-item reveal" open><summary>¿Qué pasa con las grabaciones de mis cursos vía Zoom?<span class="faq-icono" aria-hidden="true"></span></summary><div class="faq-respuesta"><p>Son tuyas para siempre: lo que descargaste queda guardado en tu computadora o en tu celular. Si necesitas descargarlas otra vez, escribe a <a href="mailto:soporte@poescritika.com">soporte@poescritika.com</a> con estos datos:</p><ul><li>el nombre y el correo con los que te inscribiste;</li><li>el nombre del curso;</li><li>el mes y el año en que lo tomaste, si los recuerdas.</li></ul><p>Te daremos de nuevo acceso a la carpeta para que descargues tus cursos. La carpeta es para descargar los videos, no para verlos en línea. Estas solicitudes se atienden solo por correo.</p></div></details>
 <details class="faq-item reveal" open><summary>¿Los cursos que ya tomé están en la Biblioteca?<span class="faq-icono" aria-hidden="true"></span></summary><div class="faq-respuesta"><p>Casi todos están en la Biblioteca, con todas sus sesiones grabadas, y se ven con la suscripción. Los más recientes aparecen como «Próximamente» y se sumarán más adelante. Además, puedes ver los que siempre quisiste tomar.</p></div></details>
 <details class="faq-item reveal" open><summary>¿Me envían los libros?<span class="faq-icono" aria-hidden="true"></span></summary><div class="faq-respuesta"><p>No. Por derechos de autor, la Biblioteca se compone solo de los videos de las sesiones; no incluye libros, textos ni diapositivas. Las obras se consiguen en cualquier librería o biblioteca.</p></div></details>
 <details class="faq-item reveal" open><summary>¿Me cobran durante la prueba?<span class="faq-icono" aria-hidden="true"></span></summary><div class="faq-respuesta"><p>No. Para activar la prueba se pide tu tarjeta y, en la página de pago, marcas la casilla «Quiero un periodo gratis». Si cancelas antes del día 7, no se te cobra nada. Si decides quedarte, el primer cobro llega el día 8. A partir de ese primer cobro tienes 7 días de garantía de devolución completa; la garantía no aplica a las renovaciones.</p></div></details>
 <details class="faq-item reveal"><summary>¿Cómo cancelo?<span class="faq-icono" aria-hidden="true"></span></summary><div class="faq-respuesta"><p>Desde tu cuenta de Hotmart:</p><ol><li>Entra a <a href="https://consumer.hotmart.com" rel="noopener">consumer.hotmart.com</a> con el correo y la contraseña de tu compra.</li><li>En tus compras, elige la Biblioteca Poescrítika.</li><li>Haz clic en «Configurar pago».</li><li>Haz clic en «Cancelar tu suscripción» y confirma con «Sí».</li></ol><p>Conservas el acceso hasta el final del periodo que ya pagaste. Si necesitas ayuda, escribe a <a href="mailto:soporte@poescritika.com">soporte@poescritika.com</a>.</p></div></details>
 <details class="faq-item reveal"><summary>¿Puedo comprar solo un curso?<span class="faq-icono" aria-hidden="true"></span></summary><div class="faq-respuesta"><p>Sí. Cinco cursos se venden también por separado, con un pago único y acceso durante un año. Cada nombre lleva a la página de su curso:</p><ul><li><a href="../cursos/jorge-luis-borges-y-la-filosofia/">«Jorge Luis Borges y la filosofía»</a>, 40 USD</li><li><a href="../cursos/cuentos-de-jorge-luis-borges/">«Cuentos de Borges»</a>, 35 USD</li><li><a href="../cursos/para-leer-rayuela-de-julio-cortazar/">«Para leer "Rayuela"»</a>, 35 USD</li><li><a href="../cursos/viaje-a-macondo-cien-anos-de-soledad/">«Viaje a Macondo»</a>, 35 USD</li><li><a href="../cursos/en-busca-de-pedro-paramo-de-juan-rulfo/">«En busca de "Pedro Páramo"»</a>, 35 USD</li></ul><p>Los demás cursos solo están en la Biblioteca.</p></div></details>
 <details class="faq-item reveal"><summary>¿Puedo hacerle preguntas al profesor?<span class="faq-icono" aria-hidden="true"></span></summary><div class="faq-respuesta"><p>La Biblioteca no incluye resolución de dudas. A cambio, puedes pausar, repetir una explicación las veces que quieras o volver a una sesión meses después.</p></div></details>
-<details class="faq-item reveal"><summary>¿En qué aparatos lo veo? ¿Puedo descargar los videos?<span class="faq-icono" aria-hidden="true"></span></summary><div class="faq-respuesta"><p>En computadora, tableta o celular, con conexión a internet. En la aplicación de Hotmart para celular puedes descargar sesiones para verlas sin internet, pero solo se ven mientras tu suscripción esté activa. Esto es distinto de las grabaciones de tus cursos en vivo, que son tuyas para siempre.</p></div></details>
+<details class="faq-item reveal"><summary>¿En qué aparatos lo veo? ¿Puedo descargar los videos?<span class="faq-icono" aria-hidden="true"></span></summary><div class="faq-respuesta"><p>En computadora, tableta o celular, con conexión a internet. En la aplicación de Hotmart para celular puedes descargar sesiones para verlas sin internet, pero solo se ven mientras tu suscripción esté activa. Esto es distinto de las grabaciones de tus cursos vía Zoom, que son tuyas para siempre.</p></div></details>
     </div>
   </div>
 </section>
@@ -830,7 +821,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="ayuda reveal">
       <p>¿Tienes dudas antes de suscribirte? Escríbenos por WhatsApp:</p>
       <div class="contacto"><a href="https://wa.me/525536780543?text=Hola%2C%20soy%20cliente%20de%20Poescr%C3%ADtika%20y%20tengo%20una%20duda%20sobre%20la%20Biblioteca%20Poescr%C3%ADtika." target="_blank" rel="noopener">WhatsApp: +52 55 3678 0543</a></div>
-      <p>¿Necesitas de nuevo la carpeta de grabaciones de un curso en vivo, o tienes dudas con tu cuenta? Escribe a:</p>
+      <p>¿Necesitas de nuevo la carpeta de grabaciones de un curso vía Zoom, o tienes dudas con tu cuenta? Escribe a:</p>
       <div class="contacto"><a href="mailto:soporte@poescritika.com">soporte@poescritika.com</a></div>
     </div>
     <p class="firma reveal">Equipo Poescrítika</p>
