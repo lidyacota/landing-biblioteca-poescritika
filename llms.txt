@@ -23,7 +23,6 @@ Cada curso dedica entre 5 h 30 min y 9 h 30 min a una sola obra, un solo autor o
 - Algunos cursos también se venden por separado (pago único, acceso durante un año).
 - Página principal: https://www.poescritika.com/
 - Biblioteca Poescrítika: https://www.poescritika.com/biblioteca/
-- Prueba gratis: https://www.poescritika.com/prueba-gratis/
 - Quiénes somos (Lidya Cota y Abraham Truxillo): https://www.poescritika.com/quienes-somos/
 
 ## Cursos
