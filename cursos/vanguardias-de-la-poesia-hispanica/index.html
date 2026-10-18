@@ -1102,7 +1102,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    ===================================================================== */
 const CONFIG = {
   prefijo: "oficial",
-  parametros: ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"]
+  parametros: ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "fbclid"]
 };
 
 document.documentElement.classList.add("js");
@@ -1110,12 +1110,22 @@ document.documentElement.classList.add("js");
 (function rastreo(){
   let visita;
   try { visita = new URLSearchParams(location.search); } catch(e) { return; }
+  /* Marca del clic de Facebook (fbclid): si la dirección no la trae, se toma de la
+     cookie _fbc que crea el píxel de Meta (formato fb.1.<número>.<fbclid>). */
+  let fbclid = visita.get("fbclid");
+  if (!fbclid) {
+    try {
+      const c = document.cookie.match(/(?:^|;\s*)_fbc=([^;]+)/);
+      const m = c && decodeURIComponent(c[1]).match(/^fb\.\d+\.\d+\.(.+)$/);
+      if (m) fbclid = m[1];
+    } catch(e) {}
+  }
   document.querySelectorAll("a[data-lugar][data-plan]").forEach(function(a){
     try {
       const u = new URL(a.href);
       u.searchParams.set("sck", CONFIG.prefijo + "-" + a.dataset.lugar + "-" + a.dataset.plan);
       CONFIG.parametros.forEach(function(p){
-        const v = visita.get(p);
+        const v = p === "fbclid" ? fbclid : visita.get(p);
         if (v) u.searchParams.set(p, v);
       });
       a.href = u.toString();

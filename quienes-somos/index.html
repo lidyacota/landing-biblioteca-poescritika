@@ -85,7 +85,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       "@id": "https://www.poescritika.com/#lidya",
       "name": "Lidya Cota",
       "jobTitle": "Cofundadora y directora de Poescrítika",
-      "description": "Especialista en inteligencia artificial y estrategia digital, emprendedora y gestora cultural.",
+      "description": "Especialista en inteligencia artificial y estrategia digital.",
       "knowsAbout": [
         "Inteligencia artificial",
         "Aprendizaje automático",
@@ -96,8 +96,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         "Copywriting",
         "Diseño gráfico",
         "Desarrollo web",
-        "Analítica",
-        "Gestión cultural"
+        "Analítica"
       ],
       "spouse": {
         "@id": "https://www.poescritika.com/#abraham"
@@ -582,7 +581,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div>
       <span class="antetitulo reveal">Cofundadora y directora</span>
       <h2 class="reveal">Lidya Cota</h2>
-      <p class="reveal">Lidya Cota es especialista en inteligencia artificial y estrategia digital, emprendedora y gestora cultural. Es cofundadora y directora de Poescrítika, escuela de literatura. Estudió Ciencias de la Informática en el Instituto Politécnico Nacional y cursó la maestría en Ciencias de la Computación en su Centro de Investigación en Computación, como becaria del Conacyt, especializándose en inteligencia artificial y aprendizaje automático. Trabajó más de 15 años en empresas de software como desarrolladora, como científica de datos y como líder de innovación, al frente de equipos que creaban prototipos con inteligencia artificial para clientes internacionales.</p>
+      <p class="reveal">Lidya Cota es especialista en inteligencia artificial y estrategia digital. Es cofundadora y directora de Poescrítika, escuela de literatura. Estudió Ciencias de la Informática en el Instituto Politécnico Nacional y cursó la maestría en Ciencias de la Computación en su Centro de Investigación en Computación, como becaria del Conacyt, especializándose en inteligencia artificial y aprendizaje automático. Trabajó más de 15 años en empresas de software como desarrolladora, como científica de datos y como líder de innovación, al frente de equipos que creaban prototipos con inteligencia artificial para clientes internacionales.</p>
       <p class="reveal">Desde 2022 dirige Poescrítika y reúne en una sola persona el trabajo de un equipo de marketing digital: estrategia, Meta Ads, copywriting, diseño gráfico, desarrollo web, analítica y edición de video. Crea y mide cada campaña de publicidad, escribe el copywriting de cada anuncio, de cada página y de cada publicación en redes sociales, y diseña todos los gráficos de la escuela y de su publicidad. Diseña y construye las landing pages del sitio (más de 35 hasta hoy), administra la plataforma de membresía de la Biblioteca y la medición de conversiones, edita las grabaciones y organiza los cursos en vivo. Elige con Abraham los cursos que se ofrecen y atiende personalmente a cada lector.</p>
       <p class="reveal">Hoy une la tecnología, los datos y la inteligencia artificial con el marketing para hacer crecer un proyecto cultural. Si quieres llevar esa experiencia a tu negocio, conoce su trabajo:</p>
       <a class="enlace-web reveal" href="https://www.lidyacota.com" target="_blank" rel="noopener">lidyacota.com <span aria-hidden="true">→</span></a>
@@ -658,7 +657,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    ===================================================================== */
 const CONFIG = {
   prefijo: "oficial",
-  parametros: ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term"]
+  parametros: ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "fbclid"]
 };
 
 document.documentElement.classList.add("js");
@@ -666,12 +665,22 @@ document.documentElement.classList.add("js");
 (function rastreo(){
   let visita;
   try { visita = new URLSearchParams(location.search); } catch(e) { return; }
+  /* Marca del clic de Facebook (fbclid): si la dirección no la trae, se toma de la
+     cookie _fbc que crea el píxel de Meta (formato fb.1.<número>.<fbclid>). */
+  let fbclid = visita.get("fbclid");
+  if (!fbclid) {
+    try {
+      const c = document.cookie.match(/(?:^|;\s*)_fbc=([^;]+)/);
+      const m = c && decodeURIComponent(c[1]).match(/^fb\.\d+\.\d+\.(.+)$/);
+      if (m) fbclid = m[1];
+    } catch(e) {}
+  }
   document.querySelectorAll("a[data-lugar][data-plan]").forEach(function(a){
     try {
       const u = new URL(a.href);
       u.searchParams.set("sck", CONFIG.prefijo + "-" + a.dataset.lugar + "-" + a.dataset.plan);
       CONFIG.parametros.forEach(function(p){
-        const v = visita.get(p);
+        const v = p === "fbclid" ? fbclid : visita.get(p);
         if (v) u.searchParams.set(p, v);
       });
       a.href = u.toString();
