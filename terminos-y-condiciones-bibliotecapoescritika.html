@@ -154,7 +154,7 @@ if (location.protocol === "file:") {
   var contenido = document.querySelector('meta[name="pixel-contenido"]');
   if (contenido) {
     var vc = {content_name: contenido.content, content_category: contenido.dataset.categoria || "Curso", content_type: "product"};
-    if (contenido.dataset.id) { vc.content_ids = [contenido.dataset.id]; vc.value = 14; vc.currency = "USD"; }
+    if (contenido.dataset.id) { vc.content_ids = [contenido.dataset.id]; vc.value = +(contenido.dataset.valor || 14); vc.currency = "USD"; }
     fbq("track", "ViewContent", vc);
   }
   document.addEventListener("click", function(ev){
